@@ -1,0 +1,137 @@
+.textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+    max-width: 100%;
+  }
+  
+  .containerBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .quick-facts,
+  .timeline,
+  .quote {
+    margin-top: 3rem;
+    padding: 2rem;
+  }
+  
+  /* .quick-facts h2,
+  .timeline h2,
+  .quote h2 {
+    color: #333;
+  } */
+  
+  .facts-list li,
+  .timeline-list li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .quote p {
+    font-size: 1.25rem;
+    color: #555;
+  }
+
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  .animate-fadeInLeft {
+    animation: fadeInLeft 0.8s ease-out forwards;
+  }
+  
+  .animate-fadeInRight {
+    animation: fadeInRight 0.8s ease-out forwards;
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  
+  .delay-500 {
+    animation-delay: 0.5s;
+  }
+  
+  .delay-700 {
+    animation-delay: 0.7s;
+  }
+  
+  .delay-900 {
+    animation-delay: 0.9s;
+  }
+  
+  .delay-1500 {
+    animation-delay: 1.5s;
+  }
+  
+  .socialLinks:hover{
+    cursor: pointer;
+    color: red;
+  }
+
+
+  .nextSlideBtn {
+    z-index: 9999;
+    position: absolute;
+    right: 25px;
+    top: 400px;
+    padding: 10px;
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  

@@ -1,0 +1,8 @@
+.prevSlideBtn {
+    z-index: 9999;
+    position: absolute;
+    left: 25px;
+    top: 400px;
+    padding: 10px;
+    animation: fadeIn 0.8s ease-out forwards;
+}

@@ -15,7 +15,20 @@
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Create a CSS file or add to your existing CSS */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9); /* Optional background */
+  z-index: 1000; /* Keeps it on top of other content */
 }
