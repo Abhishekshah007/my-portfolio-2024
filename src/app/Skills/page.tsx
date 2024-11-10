@@ -7,9 +7,9 @@ export default function Page() {
     // Array to structure the skills data
     const skills = {
         Frontend: ["HTML5", "PHP", "WORDPRESS", "JAVASCRIPT", "REACT.JS", "NEXT.JS", "FLUTTER", "ANDROID"],
-        Backend: ["PHP", "EXPRESS.JS", "NEXT.JS", "WORDPRESS", "NODE.JS", "JAVA", "PYTHON"],
+        Backend: ["PHP", "EXPRESS.JS", "NEXT.JS", "WORDPRESS", "NODE.JS"],
         Database: ["MYSQL", "MONGODB", "FIREBASE", "APPWRITE"],
-        Ongoing: ["C#","DOCKER", "KUBERNETES", "PROMPT ENGINEERING"],
+        Ongoing: ["C#","DOCKER", "PROMPT ENGINEERING"],
     };
 
     // Adding a CSS animation for 3D effect and hovering
