@@ -51,7 +51,7 @@ export default function Page() {
                             BloggerBC
                         </h3>
                         <p className="text-gray-600 text-center">
-                            An innovative blogging platform that merges creativity and technology, empowering writers to share their voice.
+                            An innovative blogging platform that merges creativity and technology, empowering me to share my voice.
                         </p>
                         <a 
                             href="https://www.bloggerbc.com/" 
